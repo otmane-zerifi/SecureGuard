@@ -5,6 +5,7 @@ import FilterControls from './components/FilterControls';
 import LoadingSkeleton from './components/LoadingSkeleton';
 import mockVendors from './data/mockVendors';
 import { PlusCircle } from 'lucide-react';
+import { Analytics } from "@vercel/analytics/react";
 import ThemeToggle from './components/ThemeToggle';
 
 // Lazy load non-critical components
